@@ -896,6 +896,7 @@ export interface ApiServiceService extends Schema.CollectionType {
     link: Attribute.String;
     icon: Attribute.Media;
     color: Attribute.String;
+    slug: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
